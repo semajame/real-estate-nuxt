@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/objectivity");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ADD CUSTOM STYLE */
+@layer base {
+  body {
+    font-family: "Objectivity", sans-serif;
+    font-style: normal !important;
+  }
+
+  .hero-img {
+    background-color: #64acd4;
+    background-image: url("https://cdn.prod.website-files.com/65e5e5474c606fdc3f19a597/65e786e6fbfbdee6e30e5af1_discover-your-dream-home-now-image-property-x-webflow-template.jpg");
+    height: 650px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+  }
+
+  .grid-hero {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item-1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  .item-2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+  }
+
+  .item-3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+  }
+
+  .check {
+    width: 20px;
+    height: 20px;
+  }
+
+  .bg-color {
+    background-color: #fafafb;
+  }
+
+  .agent-pic {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .social-img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@layer components {
+}
